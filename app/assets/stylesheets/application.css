@@ -36,7 +36,7 @@ div.center-center {
 }
 
 .title {
-	font-size: 6em;
+	font-size: 5.25em;
   margin: 0.25em;
 }
 
@@ -46,4 +46,17 @@ h2.title {
 
 h3.title {
 	font-size: 3em;
+}
+
+div.miller {
+  margin:auto;
+  width: 100%;
+}
+
+img.miller {
+  display: block;
+  width: 66.67%;
+  height: 66.67%;
+  margin-left: auto;
+  margin-right: auto;
 }
