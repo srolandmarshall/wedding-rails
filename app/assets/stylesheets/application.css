@@ -14,16 +14,28 @@
  *= require_self
  */
 
-body, html {
+/* total reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body,
+html {
   height: 100%;
   width: 100%;
-	background: white;
+  background: white;
 }
 
 div.center-center {
   width: 100%;
   height: 100%;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,19 +43,19 @@ div.center-center {
 }
 
 .athena {
-  font-family: 'Athena', sans-serif;
+  font-family: "Athena", sans-serif;
   text-align: center;
 }
 
 .title {
-	font-size: 5.25em;
+  font-size: 5.25em;
   margin: 0.25em;
 }
 
 h2.title {
-	font-size: 4em;
+  font-size: 4em;
 }
 
 h3.title {
-	font-size: 3em;
+  font-size: 3em;
 }
