@@ -1,0 +1,13 @@
+
+div.miller {
+  margin:auto;
+  width: 100%;
+}
+
+img.miller {
+  display: block;
+  width: 66.67%;
+  height: 66.67%;
+  margin-left: auto;
+  margin-right: auto;
+}
