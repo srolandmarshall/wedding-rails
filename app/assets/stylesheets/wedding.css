@@ -1,0 +1,36 @@
+#wedding {
+  padding: 1em 0;
+}
+
+h3.wedding {
+  padding: 10px 0;
+}
+
+table.wedding {
+  width: 100%;
+  padding: 0 2.5%;
+}
+
+td.wedding-left {
+  width: 55%;
+}
+
+td.wedding-right {
+  width: 45%;
+}
+
+p.wedding {
+  margin-bottom: 1em;
+}
+
+img.miller-gallaher {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+p.image-caption {
+  font-size: calc((50vw - 4.5rem) / 30);
+  text-align: center;
+}

@@ -1,10 +1,16 @@
 #hero-banner
-  #banner-text-box
-    %h1
-      August 20, 2022
-      %br/
-      Maggie & Sam
-      %br/
-      Gallaher Mansion
-      %br/
-      Norwalk, Connecticut
+  #top
+    = render 'nav'
+    %ul
+    #content
+    %table#banner-text-box
+      %td.text-box-left
+        %h1.header
+          August 20, 2022
+          %br/
+          Maggie & Sam
+      %td.text-box-right
+        %h1.header
+          Gallaher Mansion
+          %br/
+          Norwalk, Connecticut

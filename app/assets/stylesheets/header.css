@@ -1,32 +1,46 @@
 div#hero-banner {
   background: url("hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 80vh;
+  height: 10vh;
   border-bottom: 5px solid #000;
+  padding-bottom: 56.25%;
 }
 
-div#banner-text-box {
-  background-color: rgba(255, 255, 255, 0.45);
-  -webkit-box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.45);
-  box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.45);
+div#top {
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.67);
+  box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.67);
+}
+
+table.nav {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+table#banner-text-box {
+  width: 100%;
+}
+
+td.nav {
+  text-align: center;
+  width: 20%;
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-family: "EB Garamond", serif;
-  color: black;
-  font-size: 2.5em;
-  text-align: left;
-  padding-left: 2em;
   padding-top: 0.2em;
-  text-shadow: 3px 3px 5px rgba(134, 134, 134, 0.45);
 }
 
-h2 {
-  font-family: "Cormorant Garamond", serif;
-  font-family: "EB Garamond", serif;
-  color: black;
-  font-size: 2em;
-  text-align: center;
-  padding-top: 10px;
+.text-box-left {
+  padding-left: 2em;
+  padding-top: 0.2em;
+  text-align: left;
+  width: 50%;
+}
+.text-box-right {
+  padding-right: 2em;
+  padding-top: 0.2em;
+  text-align: right;
+  width: 50%;
 }

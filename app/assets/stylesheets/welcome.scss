@@ -1,3 +1,89 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+$font-family: "EB Garamond", serif;
+
+h1 {
+  font-family: $font-family;
+  font-size: 4vw;
+}
+
+h2 {
+  font-family: $font-family;
+  font-size: 5vh;
+  font-size: calc((50vw - 4.5rem) / 10);
+  text-align: center;
+}
+
+h3 {
+  font-family: $font-family;
+  font-size: 4vh;
+  font-size: calc((50vw - 4.5rem) / 14);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: $font-family;
+}
+
+p {
+  font-family: $font-family;
+  font-size: calc((50vw - 4.5rem) / 15);
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 3.5vh;
+  }
+
+  h3 {
+    font-size: 3vh;
+  }
+
+  p {
+    font-size: 3.5vw;
+  }
+}
+
+p.welcome {
+  text-align: center;
+  padding: 0 10px;
+}
+
+span.time {
+  font-weight: bolder;
+}
+
+hr.ms {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+
+hr.ms:after {
+  content: "M&S";
+  display: inline-block;
+  position: relative;
+  top: -0.65em;
+  font-size: 1.33em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+#intro {
+  padding-top: 1em;
+}
