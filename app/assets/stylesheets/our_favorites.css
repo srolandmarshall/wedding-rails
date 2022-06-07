@@ -1,0 +1,51 @@
+#things-to-do {
+}
+
+h3.category {
+  font-size: 2.5rem;
+}
+
+h4.name {
+  font-size: calc((50vw - 4.5rem) / 12);
+}
+
+ul.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.address {
+  text-align: center;
+}
+
+div.category {
+  width: 45%;
+  padding: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.thing {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  div.category {
+    width: 100%;
+  }
+
+  h4.name {
+    font-size: 2vh;
+  }
+
+  li.details {
+    font-size: 3vw;
+    padding: 0 1rem;
+  }
+
+  h3.category {
+    font-size: 3vh;
+  }
+}

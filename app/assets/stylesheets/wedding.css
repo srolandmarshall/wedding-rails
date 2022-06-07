@@ -1,9 +1,13 @@
 #wedding {
-  padding: 1em 0;
+  padding: 1em;
 }
 
 h3.wedding {
   padding: 10px 0;
+}
+
+h4.wedding {
+  font-weight: bolder;
 }
 
 table.wedding {
@@ -20,7 +24,7 @@ td.wedding-right {
 }
 
 p.wedding {
-  margin-bottom: 1em;
+  margin-bottom: 0.5rem;
 }
 
 img.miller-gallaher {

@@ -1,3 +1,13 @@
 %h2 Things to Do, Places to See
+#things-to-do
+  - @things_to_do.each do |category, things|
+    .category{id: category.to_s}
+      %h3.category= category.to_s.titleize
+      - things.each do |thing|
+        .thing{id: thing[:name].to_s}
+          %h4.name= thing[:name]
+          %ul.details
+            %li.details.address= thing[:address]
+            %li.details= thing[:description]
 %br/
 %hr/
