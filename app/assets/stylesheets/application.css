@@ -21,14 +21,17 @@
   border: 0;
   outline: 0;
   font-size: 100%;
-  background: transparent;
 }
 
 body,
 html {
   height: 100%;
   width: 100%;
-  background: white;
+}
+
+div {
+  background-color: white;
+  background-image: url("groovepaper.png");
 }
 
 div.center-center {
@@ -39,11 +42,6 @@ div.center-center {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.athena {
-  font-family: "Athena", sans-serif;
-  text-align: center;
 }
 
 .title {

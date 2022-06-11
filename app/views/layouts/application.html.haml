@@ -9,11 +9,12 @@
     = csp_meta_tag
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
-    %link{href: 'https://fonts.gstatic.com', rel: 'preconnect'}/
+    %link{href: 'https://fonts.googleapis.com', rel: 'preconnect'}/
+    %link{crossorigin: '', href: 'https://fonts.gstatic.com', rel: 'preconnect'
+    }/
     %link{
-      href: 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,800;1,6..96,400;1,6..96,800&family=Jost:wght@200;700&display=swap',
       rel: 'stylesheet'
     }/
-    %link{href: 'https://fonts.cdnfonts.com/css/athena', rel: 'stylesheet'}/
   %body
     = yield

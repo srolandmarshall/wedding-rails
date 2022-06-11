@@ -2,28 +2,33 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-$font-family: "EB Garamond", serif;
+$title-font-family: "Bodoni Moda", serif, italic;
+$body-font-family: "Jost", sans-serif;
 
 h1 {
-  font-family: $font-family;
+  font-family: $title-font-family;
   font-size: 4vw;
+  font-style: italic;
 }
 
 h2 {
-  font-family: $font-family;
+  font-family: $title-font-family;
+  font-style: italic;
   font-size: 5vh;
   font-size: calc((50vw - 4.5rem) / 10);
   text-align: center;
 }
 
 h3 {
-  font-family: $font-family;
+  font-family: $title-font-family;
+  font-style: italic;
   font-size: 4vh;
   font-size: calc((50vw - 4.5rem) / 14);
 }
 
 h4 {
-  font-family: $font-family;
+  font-family: $title-font-family;
+  font-style: italic;
   font-size: 3vh;
   font-size: calc((50vw - 4.5rem) / 16);
   font-weight: lighter;
@@ -33,16 +38,16 @@ h4 {
 a {
   color: black;
   text-decoration: none;
-  font-family: $font-family;
+  font-family: $body-font-family;
 }
 
 p {
-  font-family: $font-family;
+  font-family: $body-font-family;
   font-size: calc((50vw - 4.5rem) / 17);
 }
 
 li {
-  font-family: $font-family;
+  font-family: $body-font-family;
   font-size: calc((50vw - 4.5rem) / 17);
 }
 
@@ -89,7 +94,8 @@ hr.ms:after {
   top: -0.65em;
   font-size: 1.33em;
   padding: 0 0.25em;
-  background: white;
+  background-color: white;
+  background-image: url("groovepaper.png");
 }
 
 hr {
