@@ -104,10 +104,12 @@ body {
     transform-origin: 0% 0%;
     transform: translateX(0%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    display: none;
   }
 
   .menu-container input:checked ~ .menu {
     transform: translateX(-100%);
+    display: flex;
   }
 }
 
