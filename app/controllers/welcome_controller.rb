@@ -1,10 +1,7 @@
 class WelcomeController < ApplicationController
   def index
     # Time in 12 hr est
-    @ceremony_time =
-      Time
-        .parse(Rails.application.credentials.CEREMONY_TIME)
-        .strftime('%l:%M %p')
+    @ceremony_time = Time.parse('4:30pm').strftime('%l:%M %p')
     @things_to_do = {
       food: [
         {
