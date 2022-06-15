@@ -1,0 +1,13 @@
+#registry {
+}
+
+th.registry {
+  width: 50%;
+}
+
+a.registry {
+  font-family: "Bodoni Moda", serif, italic;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: #396603;
+}

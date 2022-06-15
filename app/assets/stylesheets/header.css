@@ -32,6 +32,18 @@ h1 {
   padding-top: 0.2em;
 }
 
+h1.center {
+  text-align: center;
+}
+
+h1.hero {
+  font-size: 5vw;
+}
+
+h1.sub {
+  font-weight: lighter;
+}
+
 .text-box-left {
   padding-left: 2em;
   padding-top: 0.2em;

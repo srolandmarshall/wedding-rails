@@ -1,6 +1,10 @@
 #things-to-do {
+  display: flex;
 }
 
+h2.no_flex {
+  flex: 0;
+}
 h3.category {
   font-size: 2.5rem;
 }
@@ -20,22 +24,19 @@ li.address {
 }
 
 div.category {
-  width: 45%;
+  flex: 1;
   padding: 1em;
-  display: inline-block;
   vertical-align: top;
-}
-
-div.thing {
-  width: 100%;
-  padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
   div.category {
     width: 100%;
+    padding: 0;
   }
-
+  div.thing {
+    padding: 0;
+  }
   h4.name {
     font-size: 2vh;
   }
