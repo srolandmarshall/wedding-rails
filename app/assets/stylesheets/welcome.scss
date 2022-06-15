@@ -5,6 +5,10 @@
 $title-font-family: "Bodoni Moda", serif, italic;
 $body-font-family: "Jost", sans-serif;
 
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: $title-font-family;
   font-size: 4vw;
