@@ -1,5 +1,10 @@
 #things-to-do {
-  display: flex;
+}
+
+iframe {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 h2.no_flex {
@@ -21,12 +26,6 @@ ul.details {
 
 li.address {
   text-align: center;
-}
-
-div.category {
-  flex: 1;
-  padding: 1em;
-  vertical-align: top;
 }
 
 @media only screen and (max-width: 768px) {
