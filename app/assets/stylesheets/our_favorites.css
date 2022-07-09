@@ -18,6 +18,12 @@ h4.name {
   font-size: calc((50vw - 4.5rem) / 12);
 }
 
+p.location {
+  padding: 2vh;
+  text-align: center;
+  font-style: italic;
+}
+
 ul.details {
   list-style: none;
   padding: 0;
